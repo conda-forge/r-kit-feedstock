@@ -3,6 +3,7 @@ About r-kit-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-kit-feedstock/blob/main/LICENSE.txt)
 
+
 About r-kit
 -----------
 
@@ -11,6 +12,7 @@ Home: https://CRAN.R-project.org/package=kit
 Package license: GPL-3.0-only
 
 Summary: Basic functions, implemented in C, for large data manipulation. Fast vectorised ifelse()/nested if()/switch() functions, psum()/pprod() functions equivalent to pmin()/pmax() plus others which are missing from base R. Most of these functions are callable at C level.
+
 About r-kit
 -----------
 
