@@ -1,6 +1,5 @@
 {% set version = "0.0.18" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-kit
@@ -13,8 +12,7 @@ source:
   sha256: 181e2cccd0e6d54e30995f0d4f529dc73f0ff3d34fbfe649edadb397a05d6147
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -41,7 +39,6 @@ requirements:
     - libgomp  # [linux]
   run:
     - r-base
-    - {{ native }}gcc-libs         # [win]
 
 test:
   commands:
